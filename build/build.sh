@@ -63,19 +63,19 @@ pandoc \
 rm -r images
 
 # Create DOCX output when user specifies to do so
-    echo "Exporting Word Docx manuscript"
-    pandoc --verbose \
-    --from=markdown \
-    --to=docx \
-    --filter=pandoc-fignos \
-    --filter=pandoc-eqnos \
-    --filter=pandoc-tablenos \
-    --bibliography=$BIBLIOGRAPHY_PATH \
-    --csl=$CSL_PATH \
-    --metadata link-citations=true \
-    --reference-doc=$DOCX_PATH \
-    --resource-path=.:content \
-    --output=output/manuscript.docx \
-    $INPUT_PATH
+echo "Exporting Word Docx manuscript"
+pandoc --verbose \
+  --from=markdown \
+  --to=docx \
+  --filter=pandoc-fignos \
+  --filter=pandoc-eqnos \
+  --filter=pandoc-tablenos \
+  --bibliography=$BIBLIOGRAPHY_PATH \
+  --csl=$CSL_PATH \
+  --metadata link-citations=true \
+  --reference-doc=$DOCX_PATH \
+  --resource-path=.:content \
+  --output=output/manuscript.docx \
+  $INPUT_PATH
 
 echo "Build complete"
