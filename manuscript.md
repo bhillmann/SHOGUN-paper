@@ -1,14 +1,14 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Benjamin Hillmann
 date-meta: '2018-05-18'
 keywords:
-- markdown
-- publishing
-- manubot
+- metagenomics
+- microbiome
+- taxonomy
+- profiling
 lang: en-US
-title: 'SHOGUN: Simeaultaneous'
+title: 'SHOGUN: Accurate, scalable microbiome quantification'
 ...
 
 
@@ -18,9 +18,9 @@ title: 'SHOGUN: Simeaultaneous'
 
 <small><em>
 This manuscript
-([permalink](https://bhillmann.github.io/SHOGUN-paper/v/1e86321ef1d66cfd043d692c47773b3802f2fe5d/))
+([permalink](https://bhillmann.github.io/SHOGUN-paper/v/8476bf3984d6d9b88e2095db00fe99ada3d6a60e/))
 was automatically generated
-from [bhillmann/SHOGUN-paper@1e86321](https://github.com/bhillmann/SHOGUN-paper/tree/1e86321ef1d66cfd043d692c47773b3802f2fe5d)
+from [bhillmann/SHOGUN-paper@8476bf3](https://github.com/bhillmann/SHOGUN-paper/tree/8476bf3984d6d9b88e2095db00fe99ada3d6a60e)
 on May 18, 2018.
 </em></small>
 
@@ -28,25 +28,13 @@ on May 18, 2018.
 
 
 
-+ **John Doe**<br>
++ **Benjamin Hillmann**<br>
     ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-4276-1329](https://orcid.org/0000-0003-4276-1329)
     · ![GitHub icon](images/github.svg){height="13px" width="13px"}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [bhillmann](https://github.com/bhillmann)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Computer Science and Engineering, University of Minnesota
   </small>
 
 
@@ -55,8 +43,13 @@ on May 18, 2018.
 
 SHOGUN is a software pipeline for simultaneous taxonomic and functional abundance profiling of metagenomics datasets with Bayesian redistribution of ambiguous mapping. The pipeline is built in a modular fashion so that it may be run in its entirety or indivual parts may be flexible allowing for user creation of a reference database and selection of the alignment tool that best fits a given users data and computational resources. The package allows users to efficiently go from quality-controlled sequences to abundance profiles consistently and accurately, enabling reproducible metagenomic sequencing research.
 
-## Hello World
+## Introduction
 
+Example figure reference, Figure {@fig:shogun_schematic}B shows that quality controlled reads are aligned against the reference database. Adding another line for watchdog. Another watchdog change with removing the symbolic link. Hellow world. Still having conflicts. Why are there still conflicts? Still having conflicts?
+
+
+
+ ![(a) Raw reads from the sequencing machine are demultiplexed into individual samples. Then, each read is quality controlled with by removing adapters, low quality bases and contaminates such as host reads. Optionally, the read pairs can be stitched. (b) The quality-controlled reads are aligned against a database of known genomes to identify each read's most likely source taxon. (c) The taxa that are hit are filtered out and summarized at a specific level. These processing steps include last common ancestor assignment, genome coverage analysis, and redistribution of reads to a specific taxonomic level. (d) After the taxonomic prediction is set, the full functional repertoire of genes is directly observed through a bag-of-genes approach or predicted through a per microbe approach](images/taxonomic_profiler.png){#fig:shogun_schematic width=100%}
 
 ## References {.page_break_before}
 

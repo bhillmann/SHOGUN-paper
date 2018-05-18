@@ -2,56 +2,35 @@
   "date": "May 18, 2018",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "bhillmann",
+      "name": "Benjamin Hillmann",
+      "initials": "BMH",
+      "orcid": "0000-0003-4276-1329",
+      "email": "hillm096@umn.edu",
       "affiliations": [
-        "Department of Something, University of Whatever"
+        "Computer Science and Engineering, University of Minnesota"
       ],
-      "funders": "Grant XXXXXXXX",
       "affiliation_numbers": [
         1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
-      "affiliation_numbers": [
-        1,
-        2
       ]
     }
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Computer Science and Engineering, University of Minnesota",
       "affiliation_number": 1
-    },
-    {
-      "affiliation": "Department of Whatever, University of Something",
-      "affiliation_number": 2
     }
   ],
   "ci_source": {
     "repo_slug": "bhillmann/SHOGUN-paper",
     "repo_owner": "bhillmann",
     "repo_name": "SHOGUN-paper",
-    "commit": "1e86321ef1d66cfd043d692c47773b3802f2fe5d"
+    "commit": "8476bf3984d6d9b88e2095db00fe99ada3d6a60e"
   },
   "manuscript_stats": {
     "reference_counts": {
       "total": 0
     },
-    "word_count": 308
+    "word_count": 470
   }
 }
