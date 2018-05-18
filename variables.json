@@ -46,13 +46,12 @@
     "repo_slug": "bhillmann/SHOGUN-paper",
     "repo_owner": "bhillmann",
     "repo_name": "SHOGUN-paper",
-    "commit": "04663593b0fc028b730834c98489bb4d63d29e77"
+    "commit": "1e86321ef1d66cfd043d692c47773b3802f2fe5d"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 2,
-      "total": 2
+      "total": 0
     },
-    "word_count": 422
+    "word_count": 308
   }
 }
