@@ -18,9 +18,9 @@ title: 'SHOGUN: Accurate, scalable microbiome quantification'
 
 <small><em>
 This manuscript
-([permalink](https://bhillmann.github.io/SHOGUN-paper/v/8476bf3984d6d9b88e2095db00fe99ada3d6a60e/))
+([permalink](https://bhillmann.github.io/SHOGUN-paper/v/f9b3cd521a73c888c92e33a515920bfcdec573ac/))
 was automatically generated
-from [bhillmann/SHOGUN-paper@8476bf3](https://github.com/bhillmann/SHOGUN-paper/tree/8476bf3984d6d9b88e2095db00fe99ada3d6a60e)
+from [bhillmann/SHOGUN-paper@f9b3cd5](https://github.com/bhillmann/SHOGUN-paper/tree/f9b3cd521a73c888c92e33a515920bfcdec573ac)
 on May 18, 2018.
 </em></small>
 
