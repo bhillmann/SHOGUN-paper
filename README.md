@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/bhillmann/SHOGUN-paper/tree/gh-pages) branch hosts the contents of this directory at https://bhillmann.github.io/SHOGUN-paper/.
-The permalink for this webpage version is https://bhillmann.github.io/SHOGUN-paper/v/8476bf3984d6d9b88e2095db00fe99ada3d6a60e/.
+The permalink for this webpage version is https://bhillmann.github.io/SHOGUN-paper/v/f9b3cd521a73c888c92e33a515920bfcdec573ac/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://bhillmann.github.io/SHOGUN-paper/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`8476bf3984d6d9b88e2095db00fe99ada3d6a60e`](https://github.com/bhillmann/SHOGUN-paper/commit/8476bf3984d6d9b88e2095db00fe99ada3d6a60e).
+[`f9b3cd521a73c888c92e33a515920bfcdec573ac`](https://github.com/bhillmann/SHOGUN-paper/commit/f9b3cd521a73c888c92e33a515920bfcdec573ac).
